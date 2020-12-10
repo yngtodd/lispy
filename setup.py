@@ -11,7 +11,7 @@ requirements = ['argh',]
 
 
 COMMANDS = [
-    'greet = lispy.cli:greet',
+    'lispy = lispy.cli:repl',
 ]
 
 setup(

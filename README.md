@@ -19,5 +19,5 @@ A Python Lisp
 Lispy comes with a built in command line interface:
 
 ```python
-python -m lispy.cli greet
+python -m lispy.cli repl
 ```

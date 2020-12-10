@@ -2,14 +2,14 @@
 import argh
 
 
-def greet() -> None:
+def repl() -> None:
     r"""Say hello, lispy"""
     print(f'Hello, world!')
 
 
 def main():
     parser = argh.ArghParser()
-    parser.add_commands([greet])
+    parser.add_commands([repl])
     parser.dispatch()
 
 
